@@ -50,7 +50,7 @@ pipeline {
                     submitter "alice, bob"
                 }
                 when {
-                    environment name: 'DEPLOY_TO', value: 'dev'
+                    environment name: 'DEPLOY_TO', value: 'production'
                 }
                 steps{
                     script {
