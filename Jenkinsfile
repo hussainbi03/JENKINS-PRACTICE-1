@@ -10,7 +10,7 @@ pipeline {
                     script {
                         sh """
                             echo "Hello, this is build"
-                            echo "the project is $PROJECT
+                            echo "the project is $PROJECT "
                          """   
                     }
                 }
@@ -20,7 +20,7 @@ pipeline {
                     script {
                         sh """
                             echo "Hello, this is test"
-                            echo " this is for $COMPONENT component
+                            echo " this is for $COMPONENT component"
                          """   
                     }
                 }
