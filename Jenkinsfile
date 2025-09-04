@@ -43,6 +43,11 @@ pipeline {
                 }
             }
             stage ('deploy') {
+                input {
+                    message "should we contunue?"
+                    ok "yes, we can"
+                    submitter "alice, bob"
+                }
                 steps{
                     script {
                         sh """
