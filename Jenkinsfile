@@ -36,7 +36,7 @@ pipeline {
                 steps {
                     script {
                         sh """
-                            echo "Hello, this is test"
+                            echo "Hello, this is test stage"
                             echo " this is for $COMPONENT component"
                          """   
                     }
