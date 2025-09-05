@@ -29,7 +29,7 @@ pipeline {
                     }
                 }
             }
-           /*  stage ('test') {
+            stage ('test') {
                 steps {
                     script {
                         sh """
@@ -81,8 +81,8 @@ pipeline {
                     }
                 }
             }
-        }*/
-        } 
+        }
+    }
     
         post {
             always{
